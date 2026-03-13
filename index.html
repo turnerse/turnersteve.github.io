@@ -1,10 +1,125 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Turner Steve</title>
-  </head>
-  <body>
-    <h1>Steve Turner</h1>
-    <p>Welcome to my website. It is hosted on GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Steve Turner — Software Engineer & Builder.">
+  <title>Steve Turner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="noise-overlay"></div>
+  <div class="gradient-orb orb-1"></div>
+  <div class="gradient-orb orb-2"></div>
+
+  <div class="page-wrapper fade-in">
+
+    <!-- NAV -->
+    <nav class="nav">
+      <span class="nav-logo">ST</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+      </div>
+    </nav>
+    <div class="header-banner">
+      <img src="assets/codex-agent.png" alt="Codex Agent terminal — gpt-5.4 xhigh, Full Access">
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="about">
+      <h1 class="hero-title">
+        Steve Turner
+      </h1>
+      <p class="hero-subtitle">Software Engineer &amp; Builder</p>
+      <p class="hero-body">
+        I design and build software with a focus on clean interfaces,
+        reliable systems, and emerging AI tooling.
+      </p>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="interests" id="interests">
+      <p class="section-label">Currently into</p>
+      <div class="interest-cards">
+
+        <a class="interest-card" href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/emacs.svg" alt="Emacs" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">Emacs</h3>
+          <p class="interest-card__desc">Extensible editor and personal computing environment. The one true OS.</p>
+        </a>
+
+        <a class="interest-card" href="https://claude.ai/code" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/claude-ai.svg" alt="Claude Code" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">Claude Code</h3>
+          <p class="interest-card__desc">Anthropic's agentic coding assistant. My primary AI pair programmer.</p>
+        </a>
+
+        <a class="interest-card" href="https://openai.com/codex" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/openai-light.webp" alt="OpenAI Codex" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">OpenAI Codex</h3>
+          <p class="interest-card__desc">Cloud-based coding agent running at full access with autonomous task execution.</p>
+        </a>
+
+        <a class="interest-card" href="https://github.com/block/goose" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://raw.githubusercontent.com/block/goose/main/ui/desktop/src/images/icon-512.png" alt="Goose" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">Goose</h3>
+          <p class="interest-card__desc">Block's open-source AI agent that runs locally and automates development workflows.</p>
+        </a>
+
+        <a class="interest-card" href="https://openclaw.ai/" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/openclaw.svg" alt="OpenClaw" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">OpenClaw</h3>
+          <p class="interest-card__desc">AI platform at openclaw.ai — exploring its capabilities and integrations.</p>
+        </a>
+
+        <a class="interest-card" href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/obsidian.svg" alt="Obsidian" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">Obsidian</h3>
+          <p class="interest-card__desc">Local-first knowledge base built on plain Markdown. My second brain.</p>
+        </a>
+
+        <a class="interest-card" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/github-light.webp" alt="GitHub" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">GitHub</h3>
+          <p class="interest-card__desc">Where my code lives. Version control, collaboration, and open source.</p>
+        </a>
+
+        <a class="interest-card" href="https://www.apple.com/os/macos/" target="_blank" rel="noopener noreferrer">
+          <div class="interest-card__icon">
+            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/apple-light.webp" alt="macOS" width="28" height="28">
+          </div>
+          <h3 class="interest-card__title">macOS</h3>
+          <p class="interest-card__desc">My daily driver. Fast, Unix-based, and gets out of the way.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 Steve Turner</p>
+    </footer>
+
+  </div>
+
+</body>
 </html>
